@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - My Portfolio</title>
+  <title>Contact - ZAKARIA APDILAHI</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
@@ -104,16 +104,18 @@
     </nav>
   </header>  <main class="container">
     <h1>Contact Me</h1>
-    <form>
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" placeholder="  your name here" required><label for="email">Email Address</label>
-  <input type="email" id="email" name="email" placeholder="you@example.com" required>
-
-  <label for="message">Your Message</label>
-  <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
-
-  <button type="submit">Send Message</button>
-</form>
+    <form action="https://formspree.io/f/xdkgeqdw" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required>
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+      
+        <button type="submit">Send Message</button>
+      </form>
 
 <div class="alt-contact">
   <p>Or reach me at: <strong>zakariaapdalla@gmail.com</strong></p>
